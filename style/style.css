@@ -1,0 +1,155 @@
+:root {
+  --color1: #05b1b1;
+  --color2: #52339a;
+}
+
+section {
+  padding: 100px 0;
+}
+
+header {
+  padding: 200px 0;
+  margin-top: 30px;
+}
+
+.navbar {
+  position: fixed;
+  background-color: var(--bs-white);
+  top: 0;
+  width: 100%;
+  padding: 0 20px;
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+}
+
+footer {
+  padding: 50px 0;  
+}
+
+header,
+footer {
+  background: var(--color1);
+  background: -moz-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+  background: -webkit-linear-gradient(
+    left,
+    var(--color1) 0%,
+    var(--color2) 100%
+  );
+  background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 ); */
+}
+
+.btn1 {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 8px 30px;
+  color: var(--bs-white);
+  background-color: var(--color2);
+}
+
+.btn1:hover {
+  color: var(--bs-white);
+  background-color: var(--color1);
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.bg1 {
+    background-color: var(--color1);
+}
+
+.bg2 {
+    background-color: var(--color2);
+}
+
+.about,
+.skills {
+    background-color: #eee;
+}
+
+.projects h5 {
+    padding: 20px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color2);
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.link:hover {
+    color: var(--color1);
+}
+
+.value {
+    background: #fff;
+    border-radius: 10px;
+    height: 7px; 
+    width: 200px;  
+    margin: 15px auto 30px;
+    border: 1px solid black;
+  }
+
+.value-box {
+	background: var(--color1);
+    border-radius: 10px;
+    height: 5px;
+}
+
+.my_icon {
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_about {
+    width: 80%;
+}
+
+.img-project {
+    width: 500px;
+    height: 300px;
+    box-shadow: 2px 8px 30px rgba(184, 190, 204, 0.5);
+    border-radius: 5px;
+}
+
+.img-project:hover {
+    box-shadow: 2px 8px 30px rgba(121, 126, 143, 0.5);
+} 
+
+.text-project {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.nav-link:hover {
+    background-color: var(--color1);
+}
+
+.navbar-brand:hover {
+    font-weight: 600;
+}
+
+.text-header {
+    font-size: 20px;
+}
+
+.form {
+    margin: 0 auto;
+}
